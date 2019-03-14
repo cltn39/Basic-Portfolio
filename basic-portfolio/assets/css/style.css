@@ -3,12 +3,13 @@
   background-image: url(../images/prism/prism.png);
   }
   .top {
+    position: fixed;
     color: #333;
     background: white;
     border-bottom: solid #333 1px;
     height: 60px;
     width: 100%;
-    position: fixed;
+    top: 0%;
   }
   .header {
     background: #4aaaa5;
@@ -44,9 +45,10 @@
     float: right;
     }
   .Main {
-    position: fixed;
     width: 960px;
+    position: fixed;
     top: 50%;
+    overflow: auto;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(121, 115, 115);

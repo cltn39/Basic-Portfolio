@@ -1,7 +1,20 @@
+  * {
+    text-decoration: none;
+  }
+  p {
+    line-height: 32px;
+  }
+  
+  img {
+    max-width:100%
+  }
+
   body {
   font-family: 'Times New Roman', Times, serif;
   background-image: url(../images/prism/prism.png);
+  background-color: black;
   }
+  
   .top {
     position: fixed;
     color: #333;
@@ -11,64 +24,77 @@
     width: 100%;
     top: 0%;
   }
+  
   .header {
     background: #4aaaa5;
     float: left;
     color: white;
     margin-bottom: 0% ;
-    margin-left: 22%;
-    font-size: 10px;
-    padding: 5px 30px;
+    margin-left: 22.5%;
+    font-size: 28px;
+    padding: 16px 30px;
     border: 0px;    
   }
+  
   #button {
   padding-top: 20px;
   margin-right: 23%;
   }
-  .Contact {
+  
+  .Contact a {
   border-right: #333;
   color: #333;
-  float: right;
+  float: right; 
   }
-  .Portfolio {
+  
+  .Portfolio a {
   border-right: #333 solid 1px;
   margin-right: 10px;
   padding-right: 10px;
   color: #333;
   float: right;
   }
-  .About {
+  
+  .About a {
     border-right: #333 solid 1px;
     margin-right: 10px;
     padding-right: 10px;
     color: #333;
     float: right;
     }
-  .Main {
+  
+    .Main {
     width: 960px;
     position: fixed;
-    top: 50%;
+    top: 9%;
     overflow: auto;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     color: rgb(121, 115, 115);
     background-color: white;
     padding: 10px 30px;
     margin-top: 20px;
   }
+  
   #aboutme {
     color: #4aaaa5;
   }
-  
-  img {
-    max-width:100%
-  }
 
   #hr {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
   
+  #aboutme {
+  font-size: 28px;
+  }
+  #profile {
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+  }
+
   .footer {
+    border-top: #4aaaa5 solid 5px;
     position: fixed;
     bottom: 0%;
     width: 100%;

@@ -1,0 +1,77 @@
+  body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(../images/prism/prism.png);
+  }
+  .top {
+    color: #333;
+    background: white;
+    border-bottom: solid #333 1px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+  }
+  .header {
+    background: #4aaaa5;
+    float: left;
+    color: white;
+    margin-bottom: 0% ;
+    margin-left: 22%;
+    font-size: 10px;
+    padding: 5px 30px;
+    border: 0px;    
+  }
+  #button {
+  padding-top: 20px;
+  margin-right: 23%;
+  }
+  .Contact {
+  border-right: #333;
+  color: #333;
+  float: right;
+  }
+  .Portfolio {
+  border-right: #333 solid 1px;
+  margin-right: 10px;
+  padding-right: 10px;
+  color: #333;
+  float: right;
+  }
+  .About {
+    border-right: #333 solid 1px;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #333;
+    float: right;
+    }
+  .Main {
+    position: fixed;
+    width: 960px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(121, 115, 115);
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+  }
+  #aboutme {
+    color: #4aaaa5;
+  }
+  
+  img {
+    max-width:100%
+  }
+
+  #hr {
+    margin-bottom: 0px;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    color: white;
+    background: #666666;
+    text-align: center;
+    padding-top: 20px;
+  }

@@ -36,14 +36,14 @@
     float: left;
     color: white;
     margin-bottom: 0% ;
-    margin-left: 22.5%;
+    margin-left: 25vmax;
     padding: 20px 30px;
     border: 0px;
   }
   
   #button {
     padding-top: 30px;
-    margin-right: 23%;
+    margin-right: 25vmax;
   }
   
   .Contact a {
@@ -69,18 +69,20 @@
   }
   
   .Main {
-    width: 960px;
+    max-width: 960px;
     position: fixed;
-    top: 10%;
-    overflow: auto;
+    top: 15%;
     left: 50%;
+    height: 330px;
     transform: translate(-50%);
     background-color: #ffffff;
     border: #dddddd solid 1px;
     padding: 40px 30px;
     margin-top: 20px;
+    margin-bottom: 100px;
+    overflow-y: scroll;
   }
-  
+
   #aboutme {
     color: #4aaaa5;
   }
@@ -103,5 +105,6 @@
     background: #666666;
     text-align: center;
     padding-top: 20px;
+
     border-top: 8px solid #4aaaa5;
   }

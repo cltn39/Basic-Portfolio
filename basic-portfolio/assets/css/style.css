@@ -73,7 +73,7 @@
     position: fixed;
     top: 15%;
     left: 50%;
-    height: 330px;
+    height: 60vh;
     transform: translate(-50%);
     background-color: #ffffff;
     border: #dddddd solid 1px;

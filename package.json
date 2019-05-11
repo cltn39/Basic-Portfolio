@@ -1,0 +1,23 @@
+{
+  "name": "basic-portfolio",
+  "version": "0.9.0",
+  "description": "Portfolio for Chisoo Song",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cltn39/Basic-Portfolio.git"
+  },
+  "author": "Chisoo Song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cltn39/Basic-Portfolio/issues"
+  },
+  "homepage": "https://github.com/cltn39/Basic-Portfolio#readme",
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "multiple.js": "0.0.1"
+  }
+}
